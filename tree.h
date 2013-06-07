@@ -7,9 +7,9 @@ typedef struct node {
         struct node *right;
 }NODE;
 
-NODE *get_node();
-NODE *insert(NODE *root);
+NODE* get_node();
+NODE* insert(NODE *root, key);
 void delete_tree(NODE *root);
-NODE *search_tree(NODE *root, int search_key);
+NODE* search_tree(NODE *root, int search_key);
 
 #endif
